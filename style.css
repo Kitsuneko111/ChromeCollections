@@ -1,0 +1,47 @@
+#main{
+    height: 250px;
+    width: 200px;
+    margin: 0px;
+    padding: 0px;
+}
+#Title{
+    width: auto;
+    height: 25px;
+    background-color: white;
+    margin: 0px;
+    padding: 0px;
+    padding-top: 5px;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: larger;
+    text-align: center;
+}
+body{
+    background-color: cornflowerblue;
+    margin:0px;
+}
+footer{
+    padding-left: 5px;
+    background-color: white;
+    font-weight: 550;
+}
+#settings{
+    height:10px;
+    width:10px;
+    margin-bottom: -1px;
+}
+.collapsible{
+    border-radius: 7px;
+    border-style:solid;
+    border-width: 2px;
+    background-color: aliceblue;
+    cursor:pointer; 
+}
+.active, .collapsible:hover{
+    background-color: rgba(240, 248, 255, 0.856);
+}
+.content{
+    display:none;
+    overflow:hidden;
+    background-color: rgb(221, 237, 252);
+}
