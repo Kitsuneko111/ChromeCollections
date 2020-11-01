@@ -1,3 +1,4 @@
+/* main stuff */
 #main{
     height: 250px;
     width: 200px;
@@ -30,6 +31,7 @@ footer{
     width:10px;
     margin-bottom: -1px;
 }
+/* collapsible stuff */
 .collapsible{
     border-radius: 7px;
     border-style:solid;

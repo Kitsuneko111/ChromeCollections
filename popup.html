@@ -1,38 +1,42 @@
 <!DOCTYPE html>
+<!--Main popup containing the base values.-->
 <html>
-    <head>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-        <link rel = stylesheet href="style.css">
-    </head>
-    <body>
-        <div id="main">
-            <div id="Title">
-                <header>
-                    Collections
-                </header>
-            </div>
-            <div id=body>
-                <button id = viewCollections type=button class=collapsible>
-                    Collections
+
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel=stylesheet href="style.css">
+</head>
+
+<body>
+    <div id="main">
+        <div id="Title">
+            <header>
+                Collections
+            </header>
+        </div>
+        <div id=body>
+            <button id=viewCollections type=button class=collapsible>
+                Collections
+            </button>
+            <div id=Collections class=content>
+                No Collections
+                <br>
+                <button id=newCollection class=collapsible>
+                    + New Collection
                 </button>
-                <div id = Collections class = content>
-                    No Collections
-                    <br>
-                    <button id= newCollection class=collapsible>
-                         + New Collection 
-                    </button>
-                    <div class=content>
-                        <form id=newCollectionForm>
-                            <input type=text id=name name=name value = "New Collection"><br>
-                            <input type=submit id=submit name=submit>
-                        </form>
-                    </div>
+                <div class=content>
+                    <form id=newCollectionForm>
+                        <input type=text id=name name=name value="New Collection"><br>
+                        <input type=submit id=submit name=submit>
+                    </form>
                 </div>
             </div>
         </div>
-        <footer>
-            Find the settings here: <a href="settings.html" target=_blank><img src = "cog.png" id=settings></a>
-        </footer>
-    </body>
-    <script src=popup.js></script>
+    </div>
+    <footer>
+        Find the settings here: <a href="settings.html" target=_blank><img src="cog.png" id=settings></a>
+    </footer>
+</body>
+<script src=popup.js></script>
+
 </html>

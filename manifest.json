@@ -4,11 +4,16 @@
     "description": "Stores tabs as collections, allowing you to open, close and favourite multiple tabs at once.",
     "background": {
         "persistent": false,
-        "scripts": ["main.js"]
+        "scripts": [
+            "main.js"
+        ]
     },
-    "permissions": ["storage", "declarativeContent"],
+    "permissions": [
+        "storage",
+        "declarativeContent"
+    ],
     "manifest_version": 2,
     "page_action": {
-        "default_popup":"popup.html"
+        "default_popup": "popup.html"
     }
 }
