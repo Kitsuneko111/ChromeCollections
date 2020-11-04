@@ -10,7 +10,8 @@
     },
     "permissions": [
         "storage",
-        "declarativeContent"
+        "declarativeContent",
+        "tabs"
     ],
     "manifest_version": 2,
     "page_action": {
